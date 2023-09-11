@@ -4,7 +4,7 @@ from telethon import events, Button
 
 
 async def start_srb(event, st):
-    await event.reply(st)
+    await event.send_message(st)
                               
     
 async def vc_menu(event):
